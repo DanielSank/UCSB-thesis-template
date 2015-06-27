@@ -1,0 +1,3 @@
+*.tex   eol=lf
+*.cls   eol=lf
+*.txt   eol=lf

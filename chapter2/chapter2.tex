@@ -1,0 +1,20 @@
+% This allows you to build chapter 1 without building the entire thesis.
+
+\documentclass{report}
+
+\input{../packages.tex}
+\input{../macros.tex}
+
+\author{Daniel Sank}
+\pagestyle{headings}
+\title{Chapter 1\\
+\copyright [year]}
+
+\begin{document} %Begin zee document!
+
+\input{chapter1-content}
+
+\bibliographystyle{plain}
+\bibliography{../references}
+
+\end{document}
