@@ -1,5 +1,7 @@
 This archive contains a complete template for a PhD thesis, and a class file specific to the University of California.
-
+As errors are found or you'd like to recommend improvements, please file an issue on the github issue tracker.
+You can also directly submit improvements via pull requests.
+This is highly encouraged.
 
 CLASS FILE / OPTIONS
 
