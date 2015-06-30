@@ -1,7 +1,10 @@
 This archive contains a complete template for a PhD thesis, and a class file specific to the University of California.
-As errors are found or you'd like to recommend improvements, please file an issue on the github issue tracker.
-You can also directly submit improvements via pull requests.
-This is highly encouraged.
+This template is a bit different from others in that it helps you organize your thesis by chapter.
+You can build each chapter independently if you like so that it's easier to review/edit one piece at a time.
+There are also some helpful macros and example "good TeX practices".
+If you have questions, find errors, or you'd like to recommend improvements, please file an issue on the github issue tracker.
+You can also directly submit improvements via pull requests, which is highly encouraged :-)
+If you aren't comfortable with github and/or git, you can also email the author.
 
 CLASS FILE / OPTIONS
 ----
