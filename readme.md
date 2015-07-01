@@ -6,6 +6,14 @@ If you have questions, find errors, or you'd like to recommend improvements, ple
 You can also directly submit improvements via pull requests, which is highly encouraged :-)
 If you aren't comfortable with github and/or git, you can also email the author.
 
+
+GETTING STARTED
+----
+
+You can immediately see what the template produces by running pdflatex on `main_department.tex`.
+The standard installations of texlive on Linux or [MiKTeX](http://miktex.org/) on Windows will install packages on the fly as necessary.
+
+
 CLASS FILE / OPTIONS
 ----
 
@@ -46,3 +54,12 @@ OTHER FILES AND DIRECTORIES
 Each chapter sits in its own subdirectory. This immensely eases organization of figures etc. Note that within each chapter's directory there are at least two files. They have the same name but one has a suffix "_content". This is the actual content for the chapter which is included via main_content.tex. The point of the other file is to give you a buildable tex file which includes only the content for that chapter. This allows you to build each chapter alone during development.
 
 The appendices work roughly the same way.
+
+
+ADVICE
+----
+
+- While working on my dissertation I used both Windows and Ubuntu platforms with no significant problems.
+- I strongly recommend using some kind of version control system for your dissertation. Github is a great option as public repositories are free and git is an excellent version control system. You can also set up Git, [SVN](https://subversion.apache.org/), or [Mercurial](https://mercurial.selenic.com/) on your own or your group's file server. Another, possibly simpler option, is to use a drive share on your research group's or department's file server. Please do not work with only a single copy of your dissertation on a single computer; see next item.
+- Back up your work. Often. My good friend's thesis became corrupted days before the filing deadline and he had to go through the entire thing character by character to repair it. He was lucky he was able to recover any of it. Drive failure happens *all the time*. Just because it hasn't happened to you yet does not mean it's not going to happen tomorrow. This is one of the reasons I recommend using a file hosting service; your work is backed up for you!
+- I like [Inkscape](https://inkscape.org/en/) for drawing figures and [matplotlib](http://matplotlib.org/) for plots. There's a really nice plugin called [textext](http://pav.iki.fi/software/textext/) that lets you use TeX fonts and math inside Inkscape. I found that this made the figures in my thesis look really nice.
