@@ -14,7 +14,7 @@
 % set up the page geometry per UCSB thesis guidelines
 \RequirePackage[top=1.0in,bottom=1.0in,
                 inner=1.25in,outer=1.0in,
-                includehead,footskip=0.5in,
+                includehead,footskip=0.25in,
                 marginparwidth=1.0in,marginparsep=0.1in]{geometry}
 
 % "intelligent" double-spacing
@@ -232,13 +232,15 @@
     \if@sigs
       \vspace{6ex}
       Committee in charge:
-      \begin{quote}
-        \begin{center}
-        \@chair, Chair \\
-        \@experimentalmember \\
-        \@theorymember
-        \end{center}
-      \end{quote}
+      \begin{doublespace}
+        \begin{quote}
+          \begin{center}
+          \@chair, Chair \\
+          \@experimentalmember \\
+          \@theorymember
+          \end{center}
+        \end{quote}
+      \end{doublespace}
     \else
       \vspace{12ex}
     \fi
